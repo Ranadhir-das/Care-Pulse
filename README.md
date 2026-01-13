@@ -37,25 +37,25 @@ To access the app on your mobile device within the same network:
 
 ### `Clone the repository`
 git clone git@github.com:Ranadhir-das/Care-Pulse.git
-cd Care-Pulse
+* cd Care-Pulse
 
 ### `Database Setup`
-CREATE TABLE users (...);
-CREATE TABLE medical_stores (...);
-CREATE TABLE doctors (...);
-CREATE TABLE store_doctors (...);
+* CREATE TABLE users (...);
+* CREATE TABLE medical_stores (...);
+* CREATE TABLE doctors (...);
+* CREATE TABLE store_doctors (...);
 
 
 ### `Backend Setup`
-cd server
-npm install
+* cd server
+* npm install
 
 # Create a .env file with your DB_USER, DB_PASSWORD, and JWT_SECRET
 node index.js
 
 ### `Frontend Setup`
-cd medical  
-npm install
-npm start
+* cd medical  
+* npm install
+* npm start
 
-Built with ❤️ for a healthier community.
+**Built with ❤️ for a healthier community.**
